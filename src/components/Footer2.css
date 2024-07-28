@@ -1,0 +1,17 @@
+.ft2 {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.74rem;
+    background-color: rgb(14, 10, 56);
+}
+
+.companyname {
+    border-bottom: 0.5px solid whitesmoke;
+    padding: 15px 0 10px 0;
+}
+
+.developername {
+    padding: 10px 0 15px 0;
+}

@@ -1,0 +1,41 @@
+.navigateinfo {
+    color: rgb(14, 10, 56);
+    padding: 30px 0 0 76px;
+    font-family: "Rubik", sans-serif;
+    border-top: 1px dotted black;
+}
+
+.navigateinfo h3 {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigateinfo h3 a {
+    color: rgb(14, 10, 56);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.coursesc2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0px 75px 30px 75px;
+    color: rgb(14, 10, 56);
+}
+
+@media (max-width : 765px) {
+    .coursesc2 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 20px;
+        margin: 20px 0 20px 0;
+    }
+
+    .navigateinfo {
+        padding: 30px 0 0 22px;
+    }
+}

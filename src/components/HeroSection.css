@@ -1,0 +1,314 @@
+.heroimage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    background-color: rgb(236, 237, 255);
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    padding: 0 100px;
+}
+
+.learnbecome {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.learnbecome h1 {
+    color: rgb(14, 10, 56);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.learnbecome h2 {
+    color: darkblue;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.learnbecome span {
+    color: black;
+    font-size: 30px;
+}
+
+.imghero img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 5px darkorange);
+}
+
+#hd {
+    color: rgb(14, 10, 56);
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0 0 0;
+}
+
+.columns {
+    padding: 35px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: rgb(14, 10, 56);
+}
+
+.itemsofcs {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    gap: 10px;
+    padding: 30px 35px;
+    box-shadow: 0 0 1.5px rgb(14, 10, 56);
+    border-radius: 11px;
+    background-color: rgb(236, 237, 255);
+}
+
+.itemsofcs img {
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+}
+
+.itemsofcs h1 {
+    color: black;
+    margin: 0;
+}
+
+.syllabus {
+    background-color: rgb(14, 10, 56);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.syllabus a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 200ms ease-in-out;
+}
+
+.syllabus a:hover {
+    color: rgb(255, 164, 18);
+}
+
+.columns2 {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.columns2 a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-color: rgb(255, 164, 18);
+    font-weight: 700;
+    border-radius: 7px;
+    font-size: 1.7rem;
+    transition: 250ms ease-in-out;
+}
+
+.columns2 a:hover {
+    color: rgb(14, 10, 56);
+}
+
+#hd2 {
+    color: rgb(14, 10, 56);
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0 0 0px;
+}
+
+#hd3 {
+    /* color: rgb(14, 10, 56); */
+    color: rgb(44, 62, 80);
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.missionul {
+    font-weight: 400;
+    padding: 15px 10px;
+    margin: 0 40px 40px 40px;
+    color: black;
+    background-color: rgb(236, 237, 255);
+    border-radius: 11px;
+    box-shadow: 0 0 2px rgb(255, 164, 18);
+}
+
+.missionul ul li {
+    font-family: "Rubik", sans-serif;
+    padding: 7px 0px;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+#hd6 {
+    /* color: rgb(14, 10, 56); */
+    color: #2C3E50;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.ddpdf {
+    margin: 20px 40px;
+    padding: 15px 10px;
+    color: black;
+    font-weight: 400;
+    background-color: rgb(236, 237, 255);
+    border-radius: 11px;
+    box-shadow: 0 0 2px rgb(255, 164, 18);
+}
+
+.ddpdf span {
+    font-weight: 500;
+}
+
+.ddpdf ul li {
+    font-family: "Rubik", sans-serif;
+    padding: 7px 0px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+#hd4 {
+    color: rgb(14, 10, 56);
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0px;
+}
+
+.studentsdata {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 75px;
+    color: rgb(14, 10, 56);
+}
+
+.studentsdata img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.sd1 {
+    box-shadow: 0 0 3px gray;
+    border-radius: 11px;
+    text-align: center;
+    padding: 30px 35px;
+    background-color: rgb(236, 237, 255);
+}
+
+.sd1 h1 {
+    margin-bottom: 10px;
+}
+
+.sd1 h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+#hd5 {
+    color: rgb(14, 10, 56);
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0px;
+}
+
+.companyimage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.companyimage img {
+    width: 60%;
+    border-radius: 11px;
+}
+
+@media (max-width:765px) {
+
+    #hd,
+    #hd2,
+    #hd5,
+    #hd3,
+    #hd6,
+    #hd4 {
+        font-size: 38px;
+    }
+
+    .columns {
+        padding: 30px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .columns2 {
+        margin-top: 50px;
+    }
+
+    .itemsofcs {
+        align-items: center;
+    }
+
+    .syllabus {
+        gap: 15px;
+    }
+
+    .studentsdata {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 20px;
+    }
+
+    .missionul {
+        margin: 0 10px;
+        padding: 10px 10px;
+    }
+
+    .companyimage img {
+        width: 90%;
+        border-radius: 11px;
+    }
+
+    .ddpdf {
+        margin: 20px 10px;
+        padding: 10px 10px;
+    }
+
+    .heroimage {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .learnbecome h1 {
+        font-size: 33px;
+    }
+
+    .learnbecome h2 {
+        font-size: 30px;
+    }
+
+    .learnbecome span {
+        font-size: 25px;
+    }
+
+    .imghero img {
+        height: 250px;
+        width: 250px;
+    }
+}

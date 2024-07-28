@@ -1,0 +1,190 @@
+.navbar {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 85px;
+    width: 145px;
+}
+
+.navlinks {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: 250ms ease-in;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: rgb(14, 10, 56);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.20rem;
+    padding: 10px 5px;
+    transition: 250ms ease-in;
+    line-height: 1;
+}
+
+.dropdown a:hover {
+    color: rgb(255, 164, 18);
+}
+
+.dropdown a i {
+    font-size: 1.1rem;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    display: none;
+    flex-direction: column;
+    border-radius: 11px;
+    border-top: 2px solid rgb(255, 164, 18);
+    min-width: 200px;
+    overflow: hidden;
+    z-index: 1000;
+    animation: anime 250ms forwards;
+}
+
+.dropdown-content a {
+    background-color: white;
+    padding: 13px 15px;
+    font-size: 1rem;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+#menuicon {
+    display: none;
+}
+
+#menuicon i {
+    font-size: 2rem;
+    color: rgb(14, 10, 56);
+}
+
+@keyframes anime {
+    0% {
+        transform: translateY(-10px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+.login {
+    width: 18%;
+    background-color: rgb(255, 164, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 250ms ease-in-out;
+}
+
+.login a:hover {
+    color: rgb(14, 10, 56);
+}
+
+@media (max-width : 765px) {
+    .navbar {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .logo {
+        padding: 0px 40px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navlinks {
+        padding: 10px 0px;
+        width: 100%;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        display: none;
+        background-color: rgb(14, 10, 56);
+        animation: nlanime 250ms;
+    }
+
+    @keyframes ddanime {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX();
+        }
+    }
+
+    @keyframes nlanime {
+        0% {
+            transform: translateX(-50%)
+        }
+
+        100% {
+            transform: translateX();
+        }
+    }
+
+    .dropdown {
+        animation: ddanime 500ms;
+    }
+
+    .dropdown a {
+        color: whitesmoke;
+    }
+
+    .dropdown-content a {
+        color: rgb(14, 10, 56);
+    }
+
+    .navlinks.open {
+        display: flex;
+    }
+
+    .login {
+        width: 50%;
+        display: flex;
+    }
+
+    #menuicon {
+        display: inline-block;
+    }
+
+}
